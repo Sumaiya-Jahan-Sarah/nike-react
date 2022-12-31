@@ -1,0 +1,108 @@
+<section class="container">
+    <div class="d-flex justify-content-between flex-column-reverse
+        flex-sm-column-reverse flex-md-column-reverse flex-lg-row align-items-center">
+        <div>
+            <div
+                class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row align-items-center px-5 rounded-5 mb-5 shadow-lg border-0">
+                <div class="logo pe-4"><img src="icons/image 12.png"> </div>
+                <div class="px-4">
+                    <h3 class="text-secondary">
+                        Find the Perfect Fit
+                    </h3>
+                    <p>Everybody is different, which is why we
+
+                        offer styles for every body.</p>
+                </div>
+            </div>
+            <div
+                class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row align-items-center px-5 rounded-5 mb-5 shadow-lg border-0">
+                <div class="logo pe-4"><img src="icons/image 13.png"> </div>
+                <div class="px-4">
+                    <h3 class="text-secondary">
+                        Free Exchanges
+                    </h3>
+                    <p>One of the many reasons you can shop
+
+                        with peace of mind.</p>
+                </div>
+            </div>
+            <div
+                class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row align-items-center px-5 rounded-5 mb-5 shadow-lg border-0">
+                <div class="logo pe-4"><img src="icons/image 14.png "> </div>
+                <div class="px-4">
+                    <h3 class="text-secondary">
+                        Contact Our Seller
+                    </h3>
+                    <p>They are here to help you. That's quite
+
+                        literally what we pay them for.</p>
+                </div>
+            </div>
+        </div>
+        <div class=" my-5 py-5 ps-5 ms-5 ">
+            <img class="img-fluid" src="icons/XMLID 1.png " alt="">
+        </div>
+    </div>
+</section>
+<section class="container my-5 py-5">
+    <h2>Formal Shoes</h2>
+    <div class="row my-5 row-cols-md-2 row-cols-lg-3 row-cols-sm-1 row-cols-1">
+        <div class="col">
+            <div class=" p-3 border-0 rounded-5 m-4 shadow-lg">
+                <div class="bg-body-tertiary p-2 rounded-5">
+                    <img src="images/Mask Group.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Prestige High-Cut Leather </h5>
+                    <p class="card-text text-muted fw-semibold ">Lorem Ipsum is simply dummy text of the
+
+                        printing and typesetting industry.</p>
+
+                    <div class="d-flex justify-content-between">
+                        <h2 class="penguin">$234</h2>
+                        <button class="btn btn-primary "><i class="fa-solid fa-cart-shopping"></i>
+                            Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class=" p-3  border-0 rounded-5 m-4 shadow-lg">
+                <div class="bg-body-tertiary p-2 rounded-5">
+                    <img src="images/Rectangle 38.png " class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Slip-On Formal Shoe </h5>
+                    <p class="card-text text-muted fw-semibold ">Lorem Ipsum is simply dummy text of the
+
+                        printing and typesetting industry.</p>
+
+                    <div class="d-flex justify-content-between">
+                        <h2 class="penguin">$234</h2>
+                        <button class="btn btn-primary "><i class="fa-solid fa-cart-shopping"></i>
+                            Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="  p-3 border-0 rounded-5 m-4 shadow-lg">
+                <div class="bg-body-tertiary p-2 rounded-5">
+                    <img src="images/Rectangle 39.png " class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Slip-On Formal Shoe</h5>
+                    <p class="card-text text-muted fw-semibold ">Lorem Ipsum is simply dummy text of the
+
+                        printing and typesetting industry.</p>
+
+                    <div class="d-flex justify-content-between">
+                        <h2 class="penguin">$234</h2>
+                        <button class="btn btn-primary "><i class="fa-solid fa-cart-shopping"></i>
+                            Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
