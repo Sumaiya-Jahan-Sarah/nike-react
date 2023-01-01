@@ -6,3 +6,24 @@ body {
     width: 128px;
     height: 128px;
 }
+
+.bg-body-light {
+    background-color: #FFF9F4;
+}
+
+.bg-body-shoes {
+    background-color: #F1F1F1;
+}
+
+.penguin {
+    color: #FA804C;
+}
+
+.text-blue {
+    color: #363958;
+}
+
+.btn-blue {
+    background-image: linear-gradient(#3944F7, #2827CC);
+
+}
