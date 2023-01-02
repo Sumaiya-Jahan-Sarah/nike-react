@@ -67,7 +67,7 @@
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, ullam? Sit dolore est
                                 quaerat incidunt possimus natus fuga delectus temporibus.
                             </p>
-                            <button class="btn btn-blue text-white  "><i class="fa-solid fa-cart-shopping"></i>
+                            <button class="btn btn-blue text-white"><i class="fa-solid fa-cart-shopping"></i>
                                 Buy Now</button>
                         </div>
                         <div class="col"> <img src="images/Daco_1703273 1.png" class="d-block w-100" alt="..."></div>
@@ -138,7 +138,8 @@
 
                             and typesetting industry.
                         </p>
-                        <button class="btn btn-blue text-white "><i class="fa-solid fa-cart-shopping"></i>
+                        <button class="btn btn-blue text-white " data-bs-toggle="tooltip" data-bs-placement="top"
+                            data-bs-title="See more Product"><i class="fa-solid fa-cart-shopping"></i>
                             Buy Now</button>
                     </div>
                 </div>
@@ -165,7 +166,8 @@
 
                             <div class="d-flex justify-content-between">
                                 <h2 class="penguin">$234</h2>
-                                <button class="btn btn-blue text-white text-white "><i
+                                <button class="btn btn-blue text-white " data-bs-toggle="tooltip"
+                                    data-bs-placement="top" data-bs-title="See more Product"><i
                                         class="fa-solid fa-cart-shopping"></i>
                                     Buy Now</button>
                             </div>
@@ -185,7 +187,8 @@
 
                             <div class="d-flex justify-content-between">
                                 <h2 class="penguin">$234</h2>
-                                <button class="btn btn-blue text-white text-white "><i
+                                <button class="btn btn-blue text-white " data-bs-toggle="tooltip"
+                                    data-bs-placement="top" data-bs-title="See more Product"><i
                                         class="fa-solid fa-cart-shopping"></i>
                                     Buy Now</button>
                             </div>
@@ -205,7 +208,8 @@
 
                             <div class="d-flex justify-content-between">
                                 <h2 class="penguin">$234</h2>
-                                <button class="btn btn-blue text-white text-white "><i
+                                <button class="btn btn-blue text-white " data-bs-toggle="tooltip"
+                                    data-bs-placement="top" data-bs-title="See more Product"><i
                                         class="fa-solid fa-cart-shopping"></i>
                                     Buy Now</button>
                             </div>
@@ -213,6 +217,20 @@
                     </div>
                 </div>
             </div>
+            <!-------------------- pagination ------------------>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination d-flex justify-content-center">
+                    <li class="page-item"><a class="page-link" href="#">
+                            Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" data-bs-container="body" data-bs-toggle="popover"
+                            data-bs-placement="top" data-bs-content="See more Product" href="#">Next <i
+                                class="fa-solid fa-forward"></i></a>
+                    </li>
+                </ul>
+            </nav>
         </section>
         <!-- =======Formal Shoes========= -->
         <section class="container my-5 py-5">
@@ -231,7 +249,8 @@
 
                             <div class="d-flex justify-content-between">
                                 <h2 class="penguin">$234</h2>
-                                <button class="btn btn-blue text-white text-white "><i
+                                <button class="btn btn-blue text-white " data-bs-toggle="tooltip"
+                                    data-bs-placement="top" data-bs-title="See more Product"><i
                                         class="fa-solid fa-cart-shopping"></i>
                                     Buy Now</button>
                             </div>
@@ -251,7 +270,8 @@
 
                             <div class="d-flex justify-content-between">
                                 <h2 class="penguin">$234</h2>
-                                <button class="btn btn-blue text-white text-white "><i
+                                <button class="btn btn-blue text-white " data-bs-toggle="tooltip"
+                                    data-bs-placement="top" data-bs-title="See more Product"><i
                                         class="fa-solid fa-cart-shopping"></i>
                                     Buy Now</button>
                             </div>
@@ -271,7 +291,8 @@
 
                             <div class="d-flex justify-content-between">
                                 <h2 class="penguin">$234</h2>
-                                <button class="btn btn-blue text-white text-white "><i
+                                <button class="btn btn-blue text-white " data-bs-toggle="tooltip"
+                                    data-bs-placement="top" data-bs-title="See more Product"><i
                                         class="fa-solid fa-cart-shopping"></i>
                                     Buy Now</button>
                             </div>
@@ -279,6 +300,20 @@
                     </div>
                 </div>
             </div>
+            <!----------------- Pagination ---------------->
+            <nav aria-label="Page navigation example">
+                <ul class="pagination d-flex justify-content-center">
+                    <li class="page-item"><a class="page-link" href="#">
+                            Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" data-bs-container="body" data-bs-toggle="popover"
+                            data-bs-placement="top" data-bs-content="See more Product" href="#">Next <i
+                                class="fa-solid fa-forward"></i></a>
+                    </li>
+                </ul>
+            </nav>
         </section>
         <!--============== our Benefits ================ -->
         <section class="container">
@@ -335,45 +370,89 @@
                 </h2>
                 <form>
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label ">Email address</label>
-                        <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <label for="exampleInputEmail1" class="form-label ">
+                            <p>
+                                <!-------------- Collapse -------------->
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseWidthExample" aria-expanded="false"
+                                    aria-controls="collapseWidthExample">
+                                    <span class="fw-semi-bold">See the Rules</span>
+                                </button>
+                            </p>
+                            <div style="min-height: 120px;">
+                                <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                                    <div class="card card-body" style="width: 300px;">
+                                        This is some placeholder content for a horizontal collapse. It's hidden by
+                                        default and shown when triggered.
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                        <input type="email" class="form-control " id="exampleInputEmail1" placeholder="Email address"
+                            aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
-
+                    <!--------------- Alert news ----------------->
                     <div id="liveAlertPlaceholder"></div>
                     <button type="button" class="btn btn-primary" id="liveAlertBtn">Submit</button>
                 </form>
             </div>
         </section>
+
+
+
+
     </main>
-    <script>
-        const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
-
-        const alert = (message, type) => {
-            const wrapper = document.createElement('div')
-            wrapper.innerHTML = [
-                `<div class="alert alert-${type} alert-dismissible" role="alert">`,
-                `   <div>${message}</div>`,
-                '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
-                '</div>'
-            ].join('')
-
-            alertPlaceholder.append(wrapper)
-        }
-
-        const alertTrigger = document.getElementById('liveAlertBtn')
-        if (alertTrigger) {
-            alertTrigger.addEventListener('click', () => {
-                alert('Nice, now you get our updates!', 'success')
-            })
-        }
-    </script>
 
 
+    <!--================= Java Script  ===================-->
+    <section>
+        <!---------------- Alert Script --------------->
+        <script>
+            const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+
+            const alert = (message, type) => {
+                const wrapper = document.createElement('div')
+                wrapper.innerHTML = [
+                    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+                    `   <div>${message}</div>`,
+                    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+                    '</div>'
+                ].join('')
+
+                alertPlaceholder.append(wrapper)
+            }
+
+            const alertTrigger = document.getElementById('liveAlertBtn')
+            if (alertTrigger) {
+                alertTrigger.addEventListener('click', () => {
+                    alert('Nice, now you get our updates!', 'success')
+                })
+            }
+        </script>
+        <!--------------------- popovers + tooltips -------------------->
 
 
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+            integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+            crossorigin="anonymous"></script>
+        <!-- popover -->
+        <script>
+            const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+            const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+        </script>
+        <!-- tooltips -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+            const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+        </script>
+        <!--------------- Bootstrap Script ---------------->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </section>
 </body>
 
 </html>
